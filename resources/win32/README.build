@@ -12,6 +12,9 @@ Prerequities:
 
 	Python for Windows Extensions:
 		http://sourceforge.net/projects/pywin32/
+		
+	Microsoft Visual C++ Compiler for Python 2.7
+		http://www.microsoft.com/en-us/download/details.aspx?id=44266
 
 	The py2exe distutils extension:
 		http://sourceforge.net/projects/py2exe/
@@ -34,6 +37,13 @@ Build steps:
 
 3) In couchapp sources, execute following command lines:
 
+    pip install http-parser
+	pip install restkit
+	pip install restkit.manager ??????????????
+	pip install pathtools
+	pip install brownie
+	pip install watchdog
+	
 	python setup.py build -c mingw32
 	python setup.py py2exe -b 2 
 

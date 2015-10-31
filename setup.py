@@ -184,8 +184,9 @@ def main():
                                 'packages': [
                                     "http_parser",
                                     "restkit",
-                                    "restkit.manager",
+#                                    "restkit.manager",
                                     "restkit.contrib",
+									"socketpool",
                                     "pathtools.path",
                                     "brownie",
                                     "brownie.datastructures",
